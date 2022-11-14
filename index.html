@@ -1,0 +1,38 @@
+<HTML>
+<HEAD>
+    <TITLE>Test Input</TITLE>
+    <link rel="stylesheet" href="mystyle.css">
+    <SCRIPT src="myscript.js" LANGUAGE="JavaScript"></SCRIPT>
+</HEAD>
+<BODY>
+
+
+
+    <FORM NAME="calculatorForm" ACTION="" METHOD="GET">
+        Podaj liczby: <BR>
+        <INPUT TYPE="number" NAME="inputbox" VALUE="" id="l1"> <br>
+            <input type="number" id="l2" placeholder="Nie dotyczy logarytmu i silni!"> <br>
+            <input type="radio" name="maslo" id="dodawanie" value="dodawanie">Dodaj<br>   
+            <input type="radio" name="maslo" id="odejmowanie" value="odejmowanie">Odejmij<br>   
+            <input type="radio" name="maslo" id="mnozenie" value="mnozenie">Pomnóż<br>  
+            <input type="radio" name="maslo" id="dzielenie" value="dzielenie">Podziel<br>
+            <input type="radio" name="maslo" id="logarytm" value="logarytm">Logarytm<br>
+            <input type="radio" name="maslo" id="potega" value="potega">Potęga<br>
+            <input type="radio" name="maslo" id="silnia" value="silnia">Silnia<br> <br>
+        <INPUT TYPE="button" NAME="button" Value="Oblicz" onClick="handleCalculatorForm(this.form)"> 
+    </FORM>
+    <div id="calcResult"></div>
+    <br>
+
+
+    
+    <FORM NAME="palindromeForm" ACTION="" METHOD="GET">
+        Enter something in the box: <BR>
+        <INPUT TYPE="text" NAME="inputbox2" id="slow1" value=""> <br> <br>
+        <INPUT TYPE="button" NAME="button2" Value="Sprawdź" onClick="handlePalindromeForm(this.form)">
+    </FORM>
+    <div id="palindromeResult"></div>
+    <br>
+
+</BODY>
+</HTML>

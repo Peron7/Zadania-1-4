@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(40,40,40,1) 50%, rgba(80,80,80,1) 100%);
+    color: #F4ABC4;
+    text-align: center;
+}
+  
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+input[type='number'], input[type='text']{
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #F4ABC4;
+    color: #F4ABC4;
+}
+
+input::placeholder{
+    font-size: 12px;
+    text-align: center;
+}
+
+input[type='button']{
+    color: #F4ABC4;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #F4ABC4;
+    border-top: 1px solid #F4ABC4;
+}
+
+input[type='button']:hover{
+    color: #b86c87;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #b86c87;
+    border-top: 1px solid #b86c87;
+}
